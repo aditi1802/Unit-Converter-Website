@@ -1,0 +1,74 @@
+body{
+    background-color: #fdf6ed;
+    background-image: url('bg1.jpg');
+}
+
+h1{
+    text-align: center;
+}
+input[type=text]{
+    width:50%;
+    font-size: 2rem;
+    height: 50px;
+    border: none;
+    background-color: #ae5162;
+    color: #FDF6ED;
+    text-align: LEFT;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 300px;
+}
+.input{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: recoleta;
+    font-weight: 500;
+    color: black;
+}
+.button1{
+    padding: 12px 25px;
+    background-color: #d6bcac;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1.2234555rem;
+    color: black;
+    text-align: center;
+    font-family: recoleta;
+    font-weight: 500;
+    display: inline-block;
+}
+.button1:hover{
+    background-color: #a8755f;
+    color: #FDF6ED;
+}
+#clear{
+    padding: 12px 28px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    background-color: #ae5162;
+    color: white;
+    margin: 0 auto;
+    display: block;
+}
+#clear:hover{
+    background-color: #d6bcac;
+    color: black
+}
+.calc-buttons {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+#result{
+    font-size: 1.2rem;
+    text-align: center;
+    border: 1px solid black;
+    padding: 0.4em;
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+    height: 20px;
+}
